@@ -4,7 +4,7 @@ void parser(char string[])
 {
     int a = 0, b = 0, i;
     // To not print h1 tag
-    for (i = 0; i < strlen(string) - 1; i++)
+    for (i = 0; i < strlen(string); i++)
     {
         if (string[i] == '<')
         {
